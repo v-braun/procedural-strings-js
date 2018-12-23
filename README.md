@@ -1,6 +1,8 @@
 # procedural-strings-js
 > procedural generation of beautiful svg shapes
 
+[![Build Status](https://travis-ci.org/v-braun/procedural-strings-js.svg?branch=master)](https://travis-ci.org/v-braun/procedural-strings-js)
+
 By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
 
