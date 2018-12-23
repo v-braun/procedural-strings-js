@@ -55,6 +55,9 @@ open -a "Google Chrome" out.svg
 
 Checkout the [Settings](https://github.com/v-braun/procedural-strings-js/blob/e384da408bfe6ba02bbe3f460c3d3174bac6420a/lib/procedural-strings.js#L11) object for more configuration details.
 
+## Documentation
+
+See [DOCUMENTATION](https://github.com/v-braun/procedural-strings-js/blob/master/DOCUMENTATION.md)
 
 
 ## Authors

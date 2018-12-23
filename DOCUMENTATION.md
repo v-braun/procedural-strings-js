@@ -5,8 +5,6 @@
 <dd></dd>
 <dt><a href="#GradientStop">GradientStop</a></dt>
 <dd></dd>
-<dt><a href="#Point">Point</a></dt>
-<dd></dd>
 <dt><a href="#ParkMiller">ParkMiller</a></dt>
 <dd></dd>
 </dl>
@@ -14,14 +12,9 @@
 ## Functions
 
 <dl>
-<dt><a href="#generateLines">generateLines(params)</a> ⇒ <code>Array.&lt;Line&gt;</code></dt>
-<dd></dd>
-<dt><a href="#generate">generate(settings)</a></dt>
-<dd></dd>
-<dt><a href="#sinBetween">sinBetween(min, max, val)</a></dt>
-<dd></dd>
-<dt><a href="#sinCurves">sinCurves(totalPhases, totalWaves, min, max, val)</a></dt>
-<dd></dd>
+<dt><a href="#generate">generate(settings)</a> ⇒ <code>String</code></dt>
+<dd><p>entry method</p>
+</dd>
 </dl>
 
 <a name="Settings"></a>
@@ -30,13 +23,13 @@
 **Kind**: global class  
 **Properties**
 
-| Name | Type |
-| --- | --- |
-| width | <code>number</code> | 
-| height | <code>number</code> | 
-| points | <code>number</code> | 
-| lines | <code>number</code> | 
-| colors | [<code>Array.&lt;GradientStop&gt;</code>](#GradientStop) | 
+| Name | Type | Description |
+| --- | --- | --- |
+| width | <code>number</code> | width of the generated SVG image |
+| height | <code>number</code> | height of the generated SVG image |
+| points | <code>number</code> | amount of points on the x axis |
+| lines | <code>number</code> | amount of lines that should be generated |
+| colors | [<code>Array.&lt;GradientStop&gt;</code>](#GradientStop) | SVG gradient over the x axis |
 
 
 * [Settings](#Settings)
@@ -59,23 +52,10 @@
 
 ### new GradientStop(offset, color)
 
-| Param | Type |
-| --- | --- |
-| offset | <code>number</code> | 
-| color | <code>string</code> | 
-
-<a name="Point"></a>
-
-## Point
-**Kind**: global class  
-<a name="new_Point_new"></a>
-
-### new Point(x, y)
-
-| Param | Type |
-| --- | --- |
-| x | <code>number</code> | 
-| y | <code>number</code> | 
+| Param | Type | Description |
+| --- | --- | --- |
+| offset | <code>number</code> | gradient offset |
+| color | <code>string</code> | gradient color. |
 
 <a name="ParkMiller"></a>
 
@@ -137,58 +117,15 @@ returns next random float between min and max
 | min | <code>number</code> | 
 | max | <code>number</code> | 
 
-<a name="generateLines"></a>
-
-## generateLines(params) ⇒ <code>Array.&lt;Line&gt;</code>
-**Kind**: global function  
-
-| Param | Type |
-| --- | --- |
-| params | [<code>Settings</code>](#Settings) | 
-
-
-* [generateLines(params)](#generateLines) ⇒ <code>Array.&lt;Line&gt;</code>
-    * [~result](#generateLines..result) : <code>Array.&lt;Line&gt;</code>
-    * [~prev](#generateLines..prev) : <code>Line</code>
-
-<a name="generateLines..result"></a>
-
-### generateLines~result : <code>Array.&lt;Line&gt;</code>
-**Kind**: inner property of [<code>generateLines</code>](#generateLines)  
-<a name="generateLines..prev"></a>
-
-### generateLines~prev : <code>Line</code>
-**Kind**: inner property of [<code>generateLines</code>](#generateLines)  
 <a name="generate"></a>
 
-## generate(settings)
+## generate(settings) ⇒ <code>String</code>
+entry method
+
 **Kind**: global function  
+**Returns**: <code>String</code> - Generated SVG image as string  
 
 | Param | Type |
 | --- | --- |
 | settings | [<code>Settings</code>](#Settings) | 
-
-<a name="sinBetween"></a>
-
-## sinBetween(min, max, val)
-**Kind**: global function  
-
-| Param | Type |
-| --- | --- |
-| min | <code>number</code> | 
-| max | <code>number</code> | 
-| val | <code>number</code> | 
-
-<a name="sinCurves"></a>
-
-## sinCurves(totalPhases, totalWaves, min, max, val)
-**Kind**: global function  
-
-| Param | Type |
-| --- | --- |
-| totalPhases | <code>number</code> | 
-| totalWaves | <code>number</code> | 
-| min | <code>number</code> | 
-| max | <code>number</code> | 
-| val | <code>number</code> | 
 

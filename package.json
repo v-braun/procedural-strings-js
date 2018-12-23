@@ -11,7 +11,8 @@
     "procedural-strings-js": "./cli.js"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "doc": "./node_modules/jsdoc-to-markdown/bin/cli.js ./**/*.js > DOCUMENTATION.md"
   },
   "keywords": [],
   "bugs": {
