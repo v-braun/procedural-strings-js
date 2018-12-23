@@ -2,9 +2,7 @@
 > procedural generation of beautiful svg shapes
 
 ![](https://img.shields.io/npm/v/procedural-strings-js.svg)
-
 [![](https://img.shields.io/github/license/v-braun/procedural-strings-js.svg?style=flat-square)](https://github.com/v-braun/procedural-strings-js/blob/master/LICENSE)
-
 [![Build Status](https://travis-ci.org/v-braun/procedural-strings-js.svg?branch=master)](https://travis-ci.org/v-braun/procedural-strings-js)
 
 By [v-braun - viktor-braun.de](https://viktor-braun.de).
