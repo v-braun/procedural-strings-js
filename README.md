@@ -5,7 +5,7 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
 
 <p align="center">
-<img width="70%" src="https://via.placeholder.com/800x480.png?text=this%20is%20a%20placeholder%20for%20the%20project%20banner" />
+<img width="70%" src="https://github.com/v-braun/procedural-strings-js/blob/master/.assets/banner.png" />
 </p>
 
 
@@ -14,22 +14,45 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
 ## Installation
 
-```
-install procedural-strings-js
+``` sh
+# as module
+npm i procedural-strings-js --save
+
+# as CLI
+npm i procedural-strings-js -g
+
 ```
 
 
 ## Usage
 
+### Module
+``` js
+const procStrings = require('procedural-strings-js');
+
+const setting = new procStrings.Settings();
+setting.width = 800;
+setting.height = 600;
+
+const data = procStrings.generate(setting);
+console.log(data); // output will be the generated SVG as string
+
 ```
-use procedural-strings-js
+
+
+### CLI
+``` sh
+
+procedural-strings-js -o out.svg
+open -a "Google Chrome" out.svg
+
 ```
+
 
 ## Configuration
 
-```
-configure procedural-strings-js
-```
+Checkout the *Settings* object for more configuration details.
+
 
 
 ## Authors

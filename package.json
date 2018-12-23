@@ -1,21 +1,34 @@
 {
-    "name": "procedural-strings-js",
-    "version": "1.0.0",
-    "description": "procedural generation of beautiful svg shapes",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/v-braun/procedural-strings-js.git"
-    },
-    "main": "./index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-    ],  
-    "bugs": {
-      "url": "https://github.com/v-braun/procedural-strings-js/issues"
-    },  
-    "author": "v-braun (mail@viktor-braun.de)",
-    "license": "MIT"
+  "name": "procedural-strings-js",
+  "version": "1.0.0",
+  "description": "procedural generation of beautiful svg shapes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v-braun/procedural-strings-js.git"
+  },
+  "main": "./index.js",
+  "bin": {
+    "procedural-strings-js": "./cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/v-braun/procedural-strings-js/issues"
+  },
+  "author": "v-braun (mail@viktor-braun.de)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "svg-parser": "^1.0.5"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*"
+    ]
+  },
+  "dependencies": {
+    "options-parser": "^0.4.0"
   }
-  
+}

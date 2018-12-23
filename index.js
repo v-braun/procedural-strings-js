@@ -1,3 +1,2 @@
-module.exports = () => {
-  console.log('this is procedural-strings-js');
-};
+const lib = require('./lib/procedural-strings');
+module.exports = lib;
