@@ -61,6 +61,9 @@ Checkout the [Settings](https://github.com/v-braun/procedural-strings-js/blob/e3
 
 See [DOCUMENTATION](https://github.com/v-braun/procedural-strings-js/blob/master/DOCUMENTATION.md)
 
+# Related Projects
+- [VBRProceduralStrings](https://github.com/v-braun/VBRProceduralStrings): iOS - Swift version of this project
+
 
 ## Authors
 
