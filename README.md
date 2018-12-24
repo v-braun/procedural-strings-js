@@ -3,7 +3,7 @@
 
 ![](https://img.shields.io/npm/v/procedural-strings-js.svg)
 [![](https://img.shields.io/github/license/v-braun/procedural-strings-js.svg?style=flat-square)](https://github.com/v-braun/procedural-strings-js/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/v-braun/procedural-strings-js.svg?branch=master)](https://travis-ci.org/v-braun/procedural-strings-js)
+[![Build Status](https://img.shields.io/travis/v-braun/procedural-strings-js.svg?style=flat-square)](https://travis-ci.org/v-braun/procedural-strings-js)
 ![PR welcome](https://img.shields.io/badge/PR-welcome-green.svg?style=flat-square)
 
 
