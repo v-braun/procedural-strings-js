@@ -19,11 +19,6 @@
 <dd><p>entry method</p>
 </dd>
 </dl>
-<dl>
-<dt><a href="#generateBatch">generateBatch(settings, n)</a> ⇒ <code>String[]</code></dt>
-<dd><p>entry method</p>
-</dd>
-</dl>
 
 <a name="Settings"></a>
 
