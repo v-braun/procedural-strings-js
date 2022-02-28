@@ -129,3 +129,16 @@ entry method
 | --- | --- |
 | settings | [<code>Settings</code>](#Settings) | 
 
+<a name="generate"></a>
+
+## generateBatch(settings, n) ⇒ <code>String[]</code>
+entry method
+
+**Kind**: global function  
+**Returns**: <code>String[]</code> - An array of generated SVG images as strings
+
+| Param | Type |
+| --- | --- |
+| settings | [<code>Settings</code>](#Settings) |
+| n | <code>number</code> |
+
