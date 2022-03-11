@@ -15,6 +15,9 @@
 <dt><a href="#generate">generate(settings)</a> ⇒ <code>String</code></dt>
 <dd><p>entry method</p>
 </dd>
+<dt><a href="#generateBatch">generateBatch(settings, n)</a> ⇒ <code>Array.&lt;String&gt;</code></dt>
+<dd><p>entry method</p>
+</dd>
 </dl>
 
 <a name="Settings"></a>
@@ -128,4 +131,17 @@ entry method
 | Param | Type |
 | --- | --- |
 | settings | [<code>Settings</code>](#Settings) | 
+
+<a name="generateBatch"></a>
+
+## generateBatch(settings, n) ⇒ <code>Array.&lt;String&gt;</code>
+entry method
+
+**Kind**: global function  
+**Returns**: <code>Array.&lt;String&gt;</code> - An array of generated SVG images as strings  
+
+| Param | Type |
+| --- | --- |
+| settings | [<code>Settings</code>](#Settings) | 
+| n | <code>number</code> | 
 
